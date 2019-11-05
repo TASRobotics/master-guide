@@ -1,5 +1,7 @@
 # Commits
 
+[back](README.md)
+
 Git tracks changes to your code by tracking commits. After you change something in your code, you should make a commit. Each commit marks a version of your code that you can go back to later.
 
 ## Before you commit

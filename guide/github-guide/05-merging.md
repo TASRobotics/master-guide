@@ -1,5 +1,7 @@
 # Merging
 
+[back](README.md)
+
 When you are done making changes to your branch, you should merge it back into the master branch.
 
 ## Before you merge

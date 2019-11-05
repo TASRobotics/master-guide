@@ -1,5 +1,7 @@
 # Structure
 
+[go back](README.md)
+
 # Order of top-level declarations in a file
 
 Each file should have declarations in the following order:

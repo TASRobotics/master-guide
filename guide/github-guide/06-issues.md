@@ -1,5 +1,7 @@
 # Issues
 
+[back](README.md)
+
 We use Issues to keep track of things to do, or bugs in the program.
 
 ## Issues page
