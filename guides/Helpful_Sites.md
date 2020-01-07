@@ -17,8 +17,8 @@ These are a few sites and manuals that will be helpful for you.
   - CONNECT to the roborio when you do this.
   - Use any broswer and search <http://roborio-XXXX-frc.local/>, where XXXX is your team number, with no leading zeroes
   - You can use 172.22.11.2 if you use a USB cable to connect.
-- [Hardware Overview](https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/599672-frc-control-system-hardware-overview)
-- [Wiring Overview](https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware/l/144971-wiring-the-frc-control-system)
+- [Hardware Overview](https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/control-system-hardware.html)
+- [Wiring Overview](https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/how-to-wire-a-robot.html)
 - [CTRE Documentation/Manual](https://phoenix-documentation.readthedocs.io/en/latest/index.html)
 - [CTRE Sample Code](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages)
 - [SparkMax Documentation/Download](http://www.revrobotics.com/sparkmax-software/)
