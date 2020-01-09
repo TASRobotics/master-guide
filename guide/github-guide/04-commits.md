@@ -20,7 +20,17 @@ Why would you want to do that? Sometimes, you make multiple unrelated changes to
 
 The most important part of a commit is the commit message. There are two parts: the summary and the description.
 
-The summary should usually be a short statement in the imperative, with the first letter capitalized and no period at the end. For example:
+IMPORTANT: as of the 2020 season we will now be using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) to format the commit message
+
+conventional commits appear like the following:
+
+```
+<type>[optional scope]: <description>
+```
+
+The most common two types used are ```fix``` and ```feat```, for fixes and features respectively. ```chore``` is for small changes to the documentation or whitespace/structure that doesn't actually change any of the functional code. There are other types used by some people, but these are the ones we will use in raidzero
+
+The description should usually be a short statement in the imperative, with the first letter capitalized and no period at the end. For example:
 
 ```
 Add method for driving forward
@@ -29,6 +39,8 @@ Change PID values for turning
 Drive slower in autonomous mode
 Self-destruct when red button is pressed
 ```
+
+- the following example commit messages don't use conventional commits because this document was made before we started using them
 
 Commit messages should be descriptive. Here are some good commit messages:
 
@@ -41,8 +53,6 @@ Here are some bad commit messages:
 Here are some really bad commit messages:
 
 ![](img/really-bad-commit-messages.png)
-
-The description part is optional. If you want to add more info, you can write it in the description. If you don't, that's fine, just click commit.
 
 ## Undoing commits
 
