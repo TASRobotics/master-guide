@@ -21,7 +21,7 @@ For VS Code to recognize third party libraries such as CTRE, you have to add the
 
 ## Import, Declare, Initialize
 
-Before doing anything, you can delete all the default template code except for line 8. Then paste this in as a template.
+Before doing anything, you can delete all the default template code. Then paste this in as a template.
 
 ```java
 package frc.robot;
@@ -33,52 +33,52 @@ import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 
 public class Robot extends TimedRobot {
-  // Declare objects below here
-  TalonSRX motor;
-  Joystick joy;
-
-  /**
-   * This function is run when the robot is first started up and should be
-   * used for any initialization code.
-   */
-  @Override
-  public void robotInit() {
-    motor = new TalonSRX(0);
-    joy = new Joystick(0);
-  }
-
-  /**
-   * This function is run once each time the robot enters autonomous mode.
-   */
-  @Override
-  public void autonomousInit() {
-    
-  }
-
-  /**
-   * This function is called periodically during autonomous.
-   */
-  @Override
-  public void autonomousPeriodic() {
-    
-  }
-
-  /**
-   * This function is called once each time the robot enters teleoperated mode.
-   */
-  @Override
-  public void teleopInit() {
-
-  }
-
-  /**
-   * This function is called periodically during teleoperated mode.
-   * This is where the code for manual control goes
-   */
-  @Override
-  public void teleopPeriodic() {
-    motor.set(ControlMode.PercentOutput, 0);
-  }
+	// Declare objects below here
+	TalonSRX motor;
+	Joystick joy;
+	
+	/**
+	* This function is run when the robot is first started up and should be
+	* used for any initialization code.
+	*/
+	@Override
+	public void robotInit() {
+		motor = new TalonSRX(0);
+		joy = new Joystick(0);
+	}
+	
+	/**
+	* This function is run once each time the robot enters autonomous mode.
+	*/
+	@Override
+	public void autonomousInit() {
+		
+	}
+	
+	/**
+	* This function is called periodically during autonomous.
+	*/
+	@Override
+	public void autonomousPeriodic() {
+		
+	}
+	
+	/**
+	* This function is called once each time the robot enters teleoperated mode.
+	*/
+	@Override
+	public void teleopInit() {
+	
+	}
+	
+	/**
+	* This function is called periodically during teleoperated mode.
+	* This is where the code for manual control goes
+	*/
+	@Override
+	public void teleopPeriodic() {
+		motor.set(ControlMode.PercentOutput, 0);
+	}
 }
 ```
 
