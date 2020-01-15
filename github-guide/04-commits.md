@@ -28,7 +28,9 @@ conventional commits appear like the following:
 <type>[optional scope]: <description>
 ```
 
-The most common two types used are ```fix``` and ```feat```, for fixes and features respectively. ```chore``` is for small changes to the documentation or whitespace/structure that doesn't actually change any of the functional code. There are other types used by some people, but these are the ones we will use in raidzero
+The most common two types used are ```fix``` and ```feat```, for fixes and features respectively. ```chore``` is for small changes to the documentation or whitespace/structure that doesn't actually change any of the functional code. There are other types used by some people, but these are the ones we will use.
+
+Other commit types can be found [here](https://github.com/pvdlg/conventional-commit-types#commit-types).
 
 The description should usually be a short statement in the imperative, with the first letter capitalized and no period at the end. For example:
 
