@@ -1,6 +1,6 @@
 # First Program
 
-This is the guide for your first program. Follow this guide if you have finished the getting started guide. [Here](https://wpilib.screenstepslive.com/s/currentCS/m/java) is a guide that covers a lot of the programming for FRC. It is a little long, therefore the steps below will be shorter and easier for you to create a basic program to control the bot. After this, it is your turn to program whatever you want. Use the helpful sites guide to help whenever you get stuck in the future.
+This is the guide for your first program. Follow this guide if you have finished the getting started guide. [Here](https://docs.wpilib.org/en/latest/index.html) is a guide that covers a lot of the programming for FRC. It is a little long, therefore the steps below will be shorter and easier for you to create a basic program to control the bot. After this, it is your turn to program whatever you want. Use the helpful sites guide to help whenever you get stuck in the future.
 
 ## Starting a New Project
 
@@ -27,7 +27,7 @@ Before doing anything, you can delete all the default template code. Then paste 
 package frc.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
-import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.XboxController;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
@@ -35,7 +35,7 @@ import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 public class Robot extends TimedRobot {
 	// Declare objects below here
 	TalonSRX motor;
-	Joystick joy;
+	XboxController joy;
 	
 	/**
 	* This function is run when the robot is first started up and should be
@@ -44,7 +44,7 @@ public class Robot extends TimedRobot {
 	@Override
 	public void robotInit() {
 		motor = new TalonSRX(0);
-		joy = new Joystick(0);
+		joy = new XboxController(0);
 	}
 	
 	/**
