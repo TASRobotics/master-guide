@@ -21,7 +21,7 @@ For VS Code to recognize third party libraries such as CTRE, you have to add the
 
 ## Import, Declare, Initialize
 
-Before doing anything, you can delete all the default template code. Then paste this in as a template.
+Before doing anything, you can delete all the default template code inside **Robot.java**. Then paste this in as a template. Do not edit Main.java, in FRC, you should never edit Main.java unless you know what you are doing and are puposely messing with the low level structure.
 
 ```java
 package frc.robot;
