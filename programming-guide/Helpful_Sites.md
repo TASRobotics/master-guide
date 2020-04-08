@@ -1,5 +1,7 @@
 # Helpful_Sites
 
+[return to master guide](https://github.com/TASRobotics/master-guide/blob/master/README.md)
+
 This guide includes links to useful sites and other information.
 
 ## API Docs
