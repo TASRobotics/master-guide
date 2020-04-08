@@ -1,5 +1,7 @@
 # Getting Started with FRC Programming
 
+[return to master guide](https://github.com/TASRobotics/master-guide/blob/master/README.md)
+
 This is a quick guide to get setup to start programming. 
 
 ## Installing Programs
