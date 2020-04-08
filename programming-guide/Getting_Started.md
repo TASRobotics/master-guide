@@ -17,7 +17,6 @@ If you don't have fast wifi, you can come to the sessions and ask for USBs prelo
 2. Unzip the whole folder and run setup.exe
 3. Click Next for everything. There is no need to fill in any information
 4. You can just skip NI Licensing
-    - Season Unlock Password: R!$E2geTHeR#2020
 
 ### CTRE
 
@@ -59,17 +58,6 @@ The PDP, PCM, Roborio, and TalonSRX may need firmware updates.
 1. Connect to roborio and open up Phoenix Tuner
 2. Navigate to CAN Devices tab.
 3. Under Field-Upgrade Device Firmware, select the CRF and click Update Device
-
-Current Versions:
-
-| Hardware Name | Firmware Version | Location |
-|---------------|------------------|----------|
-| Roborio | 6.0.0.f | C:\Program Files (x86)\National Instruments\Shared\Firmware\cRIO\76F2 |
-| PDP | 1.40 | All CTRE hardware are under the folder C:\Users\Public\Documents\FRC|
-| PCM | 1.65 |  |
-| Talon SRX | 20.0-season2020 |  |
-| PigeonIMU | 20.0-season2020 |  |
-| CANifier | 20.0-season2020|  |
 
 ## Driver Station
 
