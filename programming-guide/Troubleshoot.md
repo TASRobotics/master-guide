@@ -1,5 +1,7 @@
 # Troubleshooting
 
+[return to master guide](https://github.com/TASRobotics/master-guide/blob/master/README.md)
+
 This is the guide for common troubleshooting. If a problem you have is not covered here, use google. 
 For some occasions, you may be unable to connect to the robot or deploy code. This could be due to numerous reasons such as the firewall, but the issue changes depending on the situation. These are just some solutions to common issues.
 
