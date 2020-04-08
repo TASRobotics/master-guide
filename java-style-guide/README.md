@@ -1,5 +1,7 @@
 # Java Style Guide
 
+[return to master guide](https://github.com/TASRobotics/master-guide/blob/master/README.md)
+
 The style guide is split into multiple files for easier navigation.
 
 ## Table of Contents
