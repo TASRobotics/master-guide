@@ -4,16 +4,16 @@ This is a quick guide to get started for the programming team. However, not ever
 
 ## Table of Contents
 
-- [Click here for the getting started guide](programming-guide/Getting_Started.md)
+- [Downloading and Setting Up the Environment](programming-guide/Getting_Started.md)
 
-- [Click here for the first program guide](programming-guide/First_Program.md)
+- [Writing Your First Program](programming-guide/First_Program.md)
 
-- [Click here for the troubleshooting guide](programming-guide/Troubleshoot.md)
+- [Sensors Guide](programming-guide/Sensors.md)
 
-- [Click here for the helpful sites guide](programming-guide/Helpful_Sites.md)
+- [GitHub Guide](github-guide/README.md)
 
-- [Click here for the sensors guide](programming-guide/Sensors.md)
+- [Style Guide](java-style-guide/README.md)
 
-- [Click here for the GitHub guide](github-guide/README.md)
+- [Useful Sites](programming-guide/Helpful_Sites.md)
 
-- [Click here for the Java style guide](java-style-guide/README.md)
+- [Troubleshooting](programming-guide/Troubleshoot.md)
