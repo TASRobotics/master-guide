@@ -1,5 +1,7 @@
 # Sensors
 
+[return to master guide](https://github.com/TASRobotics/master-guide/blob/master/README.md)
+
 This is a guide for common sensors used in FRC. All code is based off the TalonSRX. If you are using other motor controllers, read up other api docs.
 
 ## Basics
