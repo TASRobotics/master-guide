@@ -1,5 +1,7 @@
 # First Program
 
+[return to master guide](https://github.com/TASRobotics/master-guide/blob/master/README.md)
+
 This is the guide for your first program. Follow this guide if you have finished the getting started guide. [Here](https://docs.wpilib.org/en/latest/index.html) is a guide that covers a lot of the programming for FRC. It is a little long, therefore the steps below will be shorter and easier for you to create a basic program to control the bot. After this, it is your turn to program whatever you want. Use the helpful sites guide to help whenever you get stuck in the future.
 
 ## Starting a New Project
